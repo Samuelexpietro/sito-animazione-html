@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+header {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px 20px 20px 20px;
+}
+
+header p {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+header a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+div.hero2 {
+    max-width: 1216px;
+    margin: auto;
+    display: flex; 
+    align-items: center;
+}
+
+section.hero {
+    background-color: black;
+    padding: 30px 0 50px 0;
+}
+
+.hero h1 {
+    font-size: 69px;
+    color: white;
+}
+
+.hero img {
+    max-height: 457px;
+}
+
+div.introduzione {
+    padding: 120px 0;
+}
+
+p.home {
+    max-width: 800px;
+    margin: auto;
+    color: #646464;
+    font-size: 26px;
+    padding-bottom: 85px;
+}
+
+div.intro p {
+    max-width: 592px;
+    margin: auto;
+    font-size: 26px;
+    margin-bottom: 1.5rem;
+}
