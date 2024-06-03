@@ -49,6 +49,8 @@ header nav a:hover {
     text-decoration: underline;
 }
 
+ /*//////PAGINA HOME ///////////*/
+
 div.hero2 {
     max-width: 1216px;
     margin: auto;
@@ -57,10 +59,9 @@ div.hero2 {
 }
 
 
-
 section.hero {
     background-color: black;
-    padding: 30px 0 50px 0;
+    padding: 50px 0 50px 0;
 }
 
 .hero h1 {
@@ -71,6 +72,24 @@ section.hero {
 .hero img {
     max-height: 457px;
 }
+
+section.herobianca {
+    background-color: rgb(255, 255, 255);
+    padding: 50px 0 50px 0;
+    border-bottom: solid #ccc;
+    margin-bottom: 50px;
+}
+
+.herobianca h1 {
+    font-size: 69px;
+    color: rgb(0, 0, 0);
+}
+
+.herobianca img {
+    max-height: 457px;
+}
+
+
 
 div.introduzione {
     padding: 120px 0;
@@ -135,7 +154,7 @@ footer{
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr) );
     gap: 32px;
 }
 
@@ -198,4 +217,154 @@ footer{
     display: block;
 }
 
+
+  /*//////PAGINA ANIMAZIONE///////////*/
+
+
+section.storiaanimazione {
+    display: flex;
+    gap: 50px;
+    max-width: 1100px;
+    margin: 0 auto 64px auto;
+    padding: 0 32px;
+}
+
+section.storiaanimazione div:nth-child(1) {
+    width: 30%;
+} 
+
+section.storiaanimazione div:nth-child(2) {
+    width: 70%;
+} 
+
+
+section.storiaanimazione h1{
+    margin: 0%;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+section.storiaanimazione p {
+    font-size: 18px;
+    margin: 0;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    
+}
+
+@media(max-width: 600px) {
+
+
+    section.titolo h1 {
+        font-size: 35px;
+    }
+    section.titolo h2 {
+        font-size: 20px;
+    }
+
+    header{
+       flex-direction: column;
+       gap: 16px;
+       font-size: 12px;
+    
+    }
+
+
+    div.introduzione {
+        padding: 120px 0;
+    }
+    
+    p.home {
+        max-width: 500px;
+        margin: auto;
+        color: #646464;
+        font-size: 20px;
+        padding-bottom: 85px;
+    }
+    
+    div.intro p {
+        max-width: 400px;
+        margin: auto;
+        font-size: 16px;
+        margin-bottom: 1.5rem;
+    }
+
+    .cardhome h2 {
+        max-width: 500px; 
+        padding: 0;
+        margin: auto;
+        
+    }
+
+    .contenitore {
+        padding: 0 16px;
+        max-width: 500px;
+    }
+
+    .grid {
+        
+        gap: 26px;
+    }
+    
+    .film a {
+        text-decoration: none;
+    }
+
+    .film a:hover:before {
+        display: none;
+    }
+
+    .stopmotion { 
+        background-color: #7c7fab;
+     
+    }
+    
+    .cgi { 
+        background-color: #7cc5bd;
+    }
+    
+    .tradizionale { 
+        background-color: #7eb37a;
+    }
+
+    .film a span {
+        position: unset;
+        transform: translate(0,0);
+        font-weight: bold;
+        font-size: 21px;
+        color: #ffffff;
+        display: block;
+        padding: 12px 12px;
+    }
+
+    .film a:hover span {
+        text-decoration: underline;
+    }
+  
+
+
+ /*//////PAGINA ANIMAZIONE///////////*/
+
+    section.storiaanimazione {
+        flex-direction: column;
+    
+    }
+    
+    section.storiaanimazione div:nth-child(1) {
+        width: 100%;
+    } 
+    
+    section.storiaanimazione div:nth-child(2) {
+        width: 100%;
+    } 
+    section.storiaanimazione h1{
+        font-size: 20px;
+        padding: 0 0 30px 0;
+    
+    }
+    section.storiaanimazione p{
+        font-size: 16px;
+    }
+}
 
