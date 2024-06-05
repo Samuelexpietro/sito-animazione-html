@@ -224,7 +224,7 @@ footer{
 section.storiaanimazione {
     display: flex;
     gap: 50px;
-    max-width: 1100px;
+    max-width: 1216px;
     margin: 0 auto 64px auto;
     padding: 0 32px;
 }
@@ -241,7 +241,7 @@ section.storiaanimazione div:nth-child(2) {
 section.storiaanimazione h1{
     margin: 0%;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
 
 }
 
@@ -252,6 +252,235 @@ section.storiaanimazione p {
     margin-bottom: 1.5rem;
     
 }
+
+/*//////PAGINA TECNICA TRADIZIONALE///////////*/
+
+section.tecnicaverde {
+    background-color: #7eb37a;
+    padding: 120px 0;
+}
+
+
+div.tecnicatrad {
+    margin: auto;
+    max-width: 1216px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.tecnicatrad h1 {
+    font-size: 69px;
+    font-weight: bold;
+    color: white;
+}
+
+section.testotrad {
+    display: flex;
+    gap: 200px;
+    max-width: 1216px;
+    margin: 0 auto 64px auto;
+    padding: 160px 0 0 0;
+}
+
+section.testotrad span {
+    font-weight: bold;
+}
+
+section.testotrad div:nth-child(1) {
+    width: 30%;
+} 
+
+section.testotrad div:nth-child(2) {
+    width: 70%;
+} 
+
+
+section.testotrad h1{
+    margin: 0%;
+    font-weight: bold;
+    font-size: 20px;
+    color: #7eb37a;
+
+}
+
+section.testotrad p {
+    font-size: 18px;
+    margin: 0;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    
+}
+
+.cardhometec {
+    max-width: 1216px;
+    margin: auto;
+    padding: 0 0 85px 0 ;
+}
+
+.cardhometec h2 {
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #7eb37a;
+    font-weight: bold;
+}
+
+/*//////PAGINA TECNICA STOP MOTION///////////*/
+
+section.tecnicaviola {
+    background-color: #7c7fab;
+    padding: 120px 0;
+}
+
+
+div.tecnicastop {
+    margin: auto;
+    max-width: 1216px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.tecnicastop h1 {
+    font-size: 69px;
+    font-weight: bold;
+    color: white;
+}
+
+section.testostop {
+    display: flex;
+    gap: 200px;
+    max-width: 1216px;
+    margin: 0 auto 64px auto;
+    padding: 160px 0 0 0;
+}
+
+section.testostop span {
+    font-weight: bold;
+}
+
+section.testostop div:nth-child(1) {
+    width: 30%;
+} 
+
+section.testostop div:nth-child(2) {
+    width: 70%;
+} 
+
+
+section.testostop h1{
+    margin: 0%;
+    font-weight: bold;
+    font-size: 20px;
+    color: #7c7fab;
+
+}
+
+section.testostop p {
+    font-size: 18px;
+    margin: 0;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    
+}
+
+section.testostop h2 {
+    font-weight: bold;
+    color: #7c7fab;
+    font-size: 20px;
+}
+
+.cardhomestop {
+    max-width: 1216px;
+    margin: auto;
+    padding: 0 0 85px 0 ;
+}
+
+.cardhomestop h2 {
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #7c7fab;
+    font-weight: bold;
+}
+
+/*//////PAGINA TECNICA CGI///////////*/
+
+section.tecnicablu {
+    background-color: #7cc5bd;
+    padding: 120px 0;
+}
+
+
+div.tecnicacgi {
+    margin: auto;
+    max-width: 1216px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.tecnicacgi h1 {
+    font-size: 69px;
+    font-weight: bold;
+    color: white;
+}
+
+section.testocgi {
+    display: flex;
+    gap: 200px;
+    max-width: 1216px;
+    margin: 0 auto 64px auto;
+    padding: 160px 0 0 0;
+}
+
+section.testocgi span {
+    font-weight: bold;
+}
+
+section.testocgi div:nth-child(1) {
+    width: 30%;
+} 
+
+section.testocgi div:nth-child(2) {
+    width: 70%;
+} 
+
+
+section.testocgi h1{
+    margin: 0%;
+    font-weight: bold;
+    font-size: 20px;
+    color: #7cc5bd;
+
+}
+
+section.testocgi p {
+    font-size: 18px;
+    margin: 0;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    
+}
+
+section.testocgi h2 {
+    font-weight: bold;
+    color: #7cc5bd;
+    font-size: 20px;
+}
+
+.cardhomecgi {
+    max-width: 1216px;
+    margin: auto;
+    padding: 0 0 85px 0 ;
+}
+
+.cardhomecgi h2 {
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #7cc5bd;
+    font-weight: bold;
+}
+
 
 @media(max-width: 600px) {
 
