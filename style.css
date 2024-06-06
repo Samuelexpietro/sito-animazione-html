@@ -482,6 +482,45 @@ section.testocgi h2 {
 }
 
 
+ /*//////PAGINA FILM STOP MOTION ///////////*/
+
+ div.hero2film {
+    max-width: 1216px;
+    margin: auto;
+    display: flex; 
+    flex-direction: row;
+    gap: 110px;
+    align-items: center;
+}
+
+
+section.herostopmotion {
+    background-color: #7c7fab;
+    padding: 0 ;
+    margin: 0 0 110px 0 ;
+
+}
+
+.testohero {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero2film h1 {
+    font-size: 56px;
+    color: white;
+}
+
+.hero2film p {
+    font-size: 30px;
+    color: white;
+}
+
+.hero2film img {
+    max-height: 457px;
+}
+
+
 @media(max-width: 600px) {
 
 
