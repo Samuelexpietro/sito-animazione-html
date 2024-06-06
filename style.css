@@ -530,7 +530,7 @@ section.herostopmotion {
     max-height: 60px;
 }
 
-section.galleriafilm {
+.galleriafilm {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr) );
     max-width: 1216px;
@@ -748,7 +748,6 @@ section.galleriafilm {
 .modal img {
     max-width: 80%;
     max-height: 80%;
-    border-radius: 8px;
 }
 
 .close {
