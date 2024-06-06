@@ -520,6 +520,29 @@ section.herostopmotion {
     max-height: 457px;
 }
 
+.iconestreaming {
+    display: flex;
+    gap: 40px;
+    max-width: 800px ;
+}
+.iconestreaming img {
+    max-width: 65px;
+    max-height: 60px;
+}
+
+section.galleriafilm {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr) );
+    max-width: 1216px;
+    margin: 48px auto;
+    gap: 43px;
+    padding: 48px 16px ;
+
+}
+
+
+
+
 
 @media(max-width: 600px) {
 
@@ -634,5 +657,111 @@ section.herostopmotion {
     section.storiaanimazione p{
         font-size: 16px;
     }
+
+     /*//////PAGINA FILM///////////*/
+
+     div.hero2film {
+        max-width: 500px;
+        margin: auto;
+        display: flex; 
+        flex-direction: row;
+        gap: 80px;
+        align-items: center;
+    }
+    
+    
+    section.herostopmotion {
+        background-color: #7c7fab;
+        padding: 0 ;
+        margin: 0 0 80px 0 ;
+    
+    }
+    
+    .testohero {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .hero2film h1 {
+        font-size: 36px;
+        color: white;
+    }
+    
+    .hero2film p {
+        font-size: 16px;
+        color: white;
+    }
+    
+    .hero2film img {
+        max-height: 357px;
+    } 
+
+    .iconestreaming {
+        display: flex;
+        gap: 35px;
+        max-width: 500px ;
+    }
+    .iconestreaming img {
+        max-width: 55px;
+        max-height: 50px;
+    }
+
+    section.galleriafilm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+      }
+    
+     section.galleriafilm img{
+      height: 450px;
+      width: 450px;
+     }
+    
 }
 
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal:target {
+    display: block;
+}
+
+.modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.modal img {
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 8px;
+}
+
+.close {
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.close:hover {
+    color: #ccc;
+}
