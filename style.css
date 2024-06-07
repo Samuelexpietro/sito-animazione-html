@@ -220,7 +220,6 @@ footer{
 
   /*//////PAGINA ANIMAZIONE///////////*/
 
-
 section.storiaanimazione {
     display: flex;
     gap: 50px;
@@ -501,6 +500,29 @@ section.herostopmotion {
 
 }
 
+div.hero2filmcgi {
+    max-width: 1200px;
+    margin: auto;
+    display: flex; 
+    flex-direction: row;
+    gap: 240px;
+    align-items: center;
+}
+
+section.herocgi {
+    background-color: #7cc5bd;
+    padding: 0 ;
+    margin: 0 0 110px 0 ;
+
+}
+
+section.herotradizionale {
+    background-color: #7eb37a;
+    padding: 0 ;
+    margin: 0 0 110px 0 ;
+
+}
+
 .testohero {
     display: flex;
     flex-direction: column;
@@ -517,6 +539,20 @@ section.herostopmotion {
 }
 
 .hero2film img {
+    max-height: 457px;
+}
+
+.hero2filmcgi h1 {
+    font-size: 56px;
+    color: white;
+}
+
+.hero2filmcgi p {
+    font-size: 30px;
+    color: white;
+}
+
+.hero2filmcgi img {
     max-height: 457px;
 }
 
@@ -637,7 +673,42 @@ section.herostopmotion {
 
  /*//////PAGINA ANIMAZIONE///////////*/
 
-    section.storiaanimazione {
+.herobianca {
+    padding: 0;
+    margin: 0;
+} 
+.herobianca h1 {
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+}
+
+.hero2 img {
+    max-height: 220px;
+}
+
+.hero2 {
+    padding: 0;
+    margin: 0;
+} 
+
+.hero h1 {
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+div.hero2 {
+    max-width: 500px;
+    margin: auto;
+    display: flex; 
+    flex-direction: row;
+    gap: 29px;
+    align-items: center;
+}
+
+
+section.storiaanimazione {
         flex-direction: column;
     
     }
@@ -651,7 +722,7 @@ section.herostopmotion {
     } 
     section.storiaanimazione h1{
         font-size: 20px;
-        padding: 0 0 30px 0;
+        padding: 0;
     
     }
     section.storiaanimazione p{
@@ -665,7 +736,16 @@ section.herostopmotion {
         margin: auto;
         display: flex; 
         flex-direction: row;
-        gap: 80px;
+        gap: 20px;
+        align-items: center;
+    }
+
+    div.hero2filmcgi {
+        max-width: 500px;
+        margin: auto;
+        display: flex; 
+        flex-direction: row;
+        gap: 50px;
         align-items: center;
     }
     
@@ -676,25 +756,54 @@ section.herostopmotion {
         margin: 0 0 80px 0 ;
     
     }
+
+    section.herocgi {
+        background-color: #7cc5bd;
+        padding: 0 ;
+        margin: 0 0 80px 0 ;
     
+    }
+    
+    section.herotradizionale {
+        background-color: #7eb37a;
+        padding: 0 ;
+        margin: 0 0 80px 0 ;
+    
+    }
+
     .testohero {
         display: flex;
         flex-direction: column;
     }
     
     .hero2film h1 {
-        font-size: 36px;
+        font-size: 30px;
         color: white;
     }
     
     .hero2film p {
-        font-size: 16px;
+        font-size: 13px;
         color: white;
     }
     
     .hero2film img {
         max-height: 357px;
     } 
+
+
+    .hero2filmcgi h1 {
+        font-size: 30px;
+        color: white;
+    }
+    
+    .hero2filmcgi p {
+        font-size: 14px;
+        color: white;
+    }
+    
+    .hero2filmcgi img {
+        max-height: 357px;
+    }
 
     .iconestreaming {
         display: flex;
