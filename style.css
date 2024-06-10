@@ -3,7 +3,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-h1, h2, h3, h4, h5, h6, p, ul, ol {
+h1, h2, h3, h4, h5, h6, p, ul, ol, hr {
     margin: 0;
     padding: 0;
 }
@@ -49,13 +49,49 @@ header nav a:hover {
     text-decoration: underline;
 }
 
- /*//////PAGINA HOME ///////////*/
+ /*//////PAGINA HOME///////////*/
+
+ div.titolo {
+    padding: 0 30px 0 30px;
+}
+div.titolo h1 {
+    margin: auto;
+    font-weight: normal;
+    text-align: center;
+    font-size: 65px;
+    padding: 70px 0 25px 0 ;
+}
+
+div.titolo h2 {
+    margin: auto;
+    font-weight: normal;
+    text-align: center;
+    font-size: 45px;
+    padding: 0 0 70px 0 ;
+    border-bottom: solid #ccc;
+    
+}
+
+div.heroimg img {
+    max-height: 500px;
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+}
+
+
 
 div.hero2 {
     max-width: 1216px;
     margin: auto;
     display: flex; 
     align-items: center;
+    gap: 30px;
+}
+
+.hero2 p {
+    font-size: 30px;
+    color: white;
 }
 
 
@@ -99,14 +135,14 @@ p.home {
     max-width: 800px;
     margin: auto;
     color: #646464;
-    font-size: 26px;
+    font-size: 22px;
     padding-bottom: 85px;
 }
 
 div.intro p {
-    max-width: 592px;
+    max-width: 650px;
     margin: auto;
-    font-size: 26px;
+    font-size: 22px;
     margin-bottom: 1.5rem;
 }
 
@@ -481,7 +517,7 @@ section.testocgi h2 {
 }
 
 
- /*//////PAGINA FILM STOP MOTION ///////////*/
+ /*//////PAGINA FILM///////////*/
 
  div.hero2film {
     max-width: 1216px;
@@ -582,6 +618,32 @@ section.herotradizionale {
 
 @media(max-width: 600px) {
 
+    div.titolo {
+        padding: 40px;
+
+    }
+
+    div.titolo h1 {
+        margin: auto;
+        font-weight: normal;
+        text-align: center;
+        font-size: 45px;
+        padding: 0 0 25px 0 ;
+    }
+    
+    div.titolo h2 {
+        margin: auto;
+        font-weight: normal;
+        text-align: center;
+        font-size: 25px;
+        padding: 0 0 40px 0 ;
+    }
+
+
+    .heromia h1 h2 {
+        font-size: 25px;
+    }
+
 
     section.titolo h1 {
         font-size: 35px;
@@ -599,11 +661,11 @@ section.herotradizionale {
 
 
     div.introduzione {
-        padding: 120px 0;
+        padding: 60px 0;
     }
     
     p.home {
-        max-width: 500px;
+        max-width: 400px;
         margin: auto;
         color: #646464;
         font-size: 20px;
@@ -673,6 +735,8 @@ section.herotradizionale {
 
  /*//////PAGINA ANIMAZIONE///////////*/
 
+
+
 .herobianca {
     padding: 0;
     margin: 0;
@@ -729,7 +793,123 @@ section.storiaanimazione {
         font-size: 16px;
     }
 
+    /*//////PAGINA Tecnica tradizionale///////////*/
+
+    div.tecnicatrad {
+        margin: auto;
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    section.testotrad {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        max-width: 500px;
+        padding: 100px 0 0 0;
+    }
+    
+    section.testotrad span {
+        font-weight: bold;
+    }
+    
+    section.testotrad div:nth-child(1) {
+        width: 100%;
+    } 
+    
+    section.testotrad div:nth-child(2) {
+        width: 100%;
+    } 
+    
+    
+    section.testotrad h1{
+        font-size: 18px;
+    }
+    
+    section.testotrad p {
+        font-size: 16px;      
+    }
+
+
+    /*//////PAGINA Tecnica stop///////////*/
+
+
+    section.testostop {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        max-width: 500px;
+        padding: 100px 0 0 0;
+    }
+    
+    section.testostop span {
+        font-weight: bold;
+    }
+    
+    section.testostop div:nth-child(1) {
+        width: 100%;
+    } 
+    
+    section.testostop div:nth-child(2) {
+        width: 100%;
+    } 
+    
+    
+    section.testostop h1{
+        font-size: 18px;    
+    }
+    
+    section.testostop p {
+        font-size: 16px;        
+    }
+    
+    section.testostop h2 {
+        font-size: 16px;
+    }
+
+
+
+
+    /*//////PAGINA Tecnica cgi///////////*/
+
+    section.testocgi {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        max-width: 500px;
+        padding: 100px 0 0 0;
+    }
+    
+    section.testocgi span {
+        font-weight: bold;
+    }
+    
+    section.testocgi div:nth-child(1) {
+        width: 100%;
+    } 
+    
+    section.testocgi div:nth-child(2) {
+        width: 100%;
+    } 
+    
+    
+    section.testocgi h1{
+        font-size: 20px; 
+    }
+    
+    section.testocgi p {
+        font-size: 16px;
+    }
+    
+    section.testocgi h2 {
+        font-size: 18px;
+    }
+
      /*//////PAGINA FILM///////////*/
+
 
      div.hero2film {
         max-width: 500px;
