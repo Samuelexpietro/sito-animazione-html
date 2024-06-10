@@ -802,6 +802,11 @@ section.storiaanimazione {
         flex-direction: column;
         align-items: center;
         gap: 40px;
+        max-height: 200px;
+    }
+
+    div.tecnicatrad h1 {
+        font-size: 28px;
     }
 
     section.testotrad {
