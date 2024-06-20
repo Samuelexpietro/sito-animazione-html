@@ -652,13 +652,6 @@ section.herotradizionale {
         font-size: 20px;
     }
 
-    header{
-       flex-direction: column;
-       gap: 16px;
-       font-size: 12px;
-    
-    }
-
 
     div.introduzione {
         padding: 60px 0;
@@ -1069,3 +1062,134 @@ section.storiaanimazione {
 
 
 
+a:hover {
+    text-decoration: underline;
+  }
+  
+  header {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 15px;
+    color: #fff;
+  
+  }
+  
+  header h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+  
+  }
+  
+  nav {
+    margin:0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li {
+    position: relative;
+  }
+  
+  nav ul a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hamburger-lines {
+    display: none;
+    height: 26px;
+    width: 32px;
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    z-index: 2;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .hamburger-lines .line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: #fff;
+  }
+  
+  .hamburger-lines .line1 {
+    transform-origin: 0% 0%;
+    transition: transform 0.4s ease-in-out;
+  }
+  .hamburger-lines .line2 {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .hamburger-lines .line3 {
+    transform-origin: 0% 100%;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+    transform: rotate(45deg);
+  }
+  
+  input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+    transform: scaleY(0);
+  }
+  
+  input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+    transform: rotate(-45deg);
+  }
+  
+  .checkbox {
+    position: absolute;
+    display: block;
+    height: 32px;
+    width: 32px;
+    top: 16x;
+    right: 16px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .checkbox {
+      display: block;
+    }
+    nav ul {
+      gap: 10px;
+      flex-direction: column;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      background-color: #333;
+      width: 100%;
+      height: 100%;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    input[type="checkbox"]:checked ~ nav ul {
+      opacity: 100;
+    }
+    .hamburger-lines {
+      display: flex;
+    }
+    ul li {
+      display: block;
+    }
+  }
