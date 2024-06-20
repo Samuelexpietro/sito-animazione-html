@@ -740,7 +740,7 @@ section.herotradizionale {
     margin: 0;
 } 
 .herobianca h1 {
-    font-size: 25px;
+    font-size: 22px;
     color: rgb(0, 0, 0);
 }
 
@@ -812,7 +812,11 @@ section.storiaanimazione {
         flex-direction: column;
         gap: 80px;
         max-width: 500px;
-        padding: 100px 0 0 0;
+        padding: 100px 20px 0 20px;
+    }
+
+    .cardhometec h2 {
+        padding: 0 0 0 20px;
     }
     
     section.testotrad span {
@@ -845,7 +849,11 @@ section.storiaanimazione {
         flex-direction: column;
         gap: 80px;
         max-width: 500px;
-        padding: 100px 0 0 0;
+        padding: 100px 20px 0 20px;
+    }
+
+    .cardhomestop h2 {
+        padding: 0 0 0 20px;
     }
     
     section.testostop span {
@@ -887,7 +895,11 @@ section.storiaanimazione {
         flex-direction: column;
         gap: 80px;
         max-width: 500px;
-        padding: 100px 0 0 0;
+        padding: 100px 20px 0 20px;
+    }
+
+    .cardhomecgi h2{
+        padding: 0 0 0 20px;
     }
     
     section.testocgi span {
