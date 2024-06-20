@@ -1184,7 +1184,7 @@ a:hover {
     }
   
     input[type="checkbox"]:checked ~ nav ul {
-      opacity: 0;
+      opacity: 100;
     }
     .hamburger-lines {
       display: flex;
