@@ -740,7 +740,7 @@ section.herotradizionale {
     margin: 0;
 } 
 .herobianca h1 {
-    font-size: 28px;
+    font-size: 25px;
     color: rgb(0, 0, 0);
 }
 
@@ -764,8 +764,8 @@ div.hero2 {
     max-width: 500px;
     margin: auto;
     display: flex; 
-    flex-direction: row;
-    gap: 29px;
+    flex-direction: column;
+    gap: 30px;
     align-items: center;
 }
 
@@ -922,7 +922,7 @@ section.storiaanimazione {
         max-width: 500px;
         margin: auto;
         display: flex; 
-        flex-direction: row;
+        flex-direction: column;
         gap: 20px;
         align-items: center;
     }
@@ -931,8 +931,8 @@ section.storiaanimazione {
         max-width: 500px;
         margin: auto;
         display: flex; 
-        flex-direction: row;
-        gap: 50px;
+        flex-direction: column;
+        gap: 20px;
         align-items: center;
     }
     
@@ -971,10 +971,12 @@ section.storiaanimazione {
     .hero2film p {
         font-size: 13px;
         color: white;
+        padding: 20px 0 0 0;
     }
     
     .hero2film img {
-        max-height: 357px;
+        max-height: 200px;
+        padding: 10px 0 20px 0;
     } 
 
 
@@ -984,12 +986,14 @@ section.storiaanimazione {
     }
     
     .hero2filmcgi p {
-        font-size: 14px;
+        font-size: 13px;
         color: white;
+        padding: 20px 0 0 0;
     }
     
     .hero2filmcgi img {
-        max-height: 357px;
+        max-height: 200px;
+        padding: 10px 0 20px 0;
     }
 
     .iconestreaming {
