@@ -655,7 +655,7 @@ section.herotradizionale {
 
 
     div.introduzione {
-        padding: 60px 0;
+        padding: 60px 20px 0 20px;
     }
     
     p.home {
@@ -679,7 +679,7 @@ section.herotradizionale {
 
     .cardhome h2 {
         max-width: 500px; 
-        padding: 0;
+        padding: 0 0 0 20px;
         margin: auto;
         
     }
