@@ -679,6 +679,10 @@ section.herotradizionale {
         margin-bottom: 1.5rem;
     }
 
+    div.heroimg img {
+        height: 250px;
+    }
+
     .cardhome h2 {
         max-width: 500px; 
         padding: 0;
@@ -879,6 +883,10 @@ section.storiaanimazione {
 
 
     /*//////PAGINA Tecnica cgi///////////*/
+
+    img {
+        object-fit: cover;
+    }
 
     section.testocgi {
         display: flex;
