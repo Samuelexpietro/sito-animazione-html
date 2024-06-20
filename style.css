@@ -740,8 +740,9 @@ section.herotradizionale {
     margin: 0;
 } 
 .herobianca h1 {
-    font-size: 22px;
+    font-size: 20px;
     color: rgb(0, 0, 0);
+    padding: 0 20px;
 }
 
 .hero2 img {
