@@ -17,6 +17,10 @@ img {
     display: block;
 }
 
+div.logo h1 {
+    font-family: "Space Grotesk", sans-serif;
+}
+
 header nav ul {
     margin: 0;
     padding: 0;
