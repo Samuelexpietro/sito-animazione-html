@@ -749,6 +749,10 @@ nav a:hover {
     opacity: 0;
     cursor: pointer;
   }
+
+  .seiqui a {
+text-decoration: underline;
+  }
   
   @media only screen and (max-width: 600px) {
 
